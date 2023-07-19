@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vm;
+    height: 100vh;
+    background: #000;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    flex: 1;
+    display: flex;
+    gap: 0.25em;
+    padding: 0.25em 0 0 0;
+    background: #000;
+    font-family: "Arame"
+}
+
+nav > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+}
+
+nav p:hover{
+    transition: 0.4s ease all;
+    color: #a2d2df
+}
+
+.nav-1{
+    flex: 3;
+}
+
+.nav-2{
+     flex: 2;
+}
+
+.nav-3{
+    flex: 3;
+}
+
+.content-wrapper{
+    flex: 12;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0 0 0.5em 0;
+    gap: 0.25em;
+    background: #000;
+}
+
+.content-wrapper .col{
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 0.25em;
+    padding: 3em 2em;
+    gap: 0.25em;
+
+}
+
+.col{
+    height: 90%;
+    display: flex;
+}
+
+.col-1 {
+    flex: 4;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.col-1-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-2{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.col-2 .project-snapshot{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+.col-2 img{
+    border-radius: 10px;
+}
+
+.col-1 p{
+    font-size: 20px;
+    line-height: 1;
+    font-family: "Arame";
+}
+
+.col-1 img{
+    width: 180px;
+    height: 200px;
+    margin-left: 5em;
+}
+
+.col-1 h1{
+    font-family: "Mars Model";
+    font-size: 100px;
+    font-optical-sizing: 100px;
+    line-height: 1;
+}
+
+.cto {
+    width: 100%;
+}
+
+.cto .cto-btn {
+    background: #000;
+    color: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cto-btn h3{
+    font-family: "Mars Model";
+    font-size: 40px;
+    line-height: 1;
+    display: inline-block;
+}
+
+.cto-btn h3:hover{
+    transition: 0.4s ease all;
+    color: #a2d2df
+}
+
+
+h3 ion-icon{
+    position: relative;
+    top: 7.5px;
+}
